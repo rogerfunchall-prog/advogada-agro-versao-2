@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+::selection {
+  background-color: #41c575;
+  color: #0f2a1c;
+}
+
+.section-eyebrow {
+  font-family: var(--font-label);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.bg-noise {
+  background-image: radial-gradient(
+      circle at 1px 1px,
+      rgba(15, 42, 28, 0.08) 1px,
+      transparent 0
+    );
+  background-size: 22px 22px;
+}
+
+.wheat-divider {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #41c575 0,
+    #41c575 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  height: 3px;
+}
+
+/* Word-by-word reveal used on hero / section headlines, echoing the
+   reference template's animated headline treatment. */
+.word-reveal {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.word-reveal > span {
+  display: inline-block;
+  will-change: transform;
+}
