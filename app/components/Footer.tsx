@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer className="bg-ink pt-20">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
-        <div className="grid gap-12 border-b border-white/10 pb-14 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
-          <div>
+        <div className="grid gap-12 border-b border-white/10 pb-14 text-center md:grid-cols-[1.3fr_1fr_1fr_1fr]">
+          <div className="flex flex-col items-center">
             <div className="flex items-center gap-3">
               <Image
                 src="/images/logo-magrin.png"
@@ -89,9 +89,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-4 py-8 text-xs text-white/35 md:flex-row">
+        <div className="flex flex-col items-center justify-center gap-4 py-8 text-center text-xs text-white/35">
           <p>© {year} {site.brand}. Todos os direitos reservados.</p>
-          <p>Direito Agrário &amp; Fundiário para o Agronegócio</p>
+          <p>Desenvolvido com cuidado por G Hanks</p>
         </div>
       </div>
     </footer>

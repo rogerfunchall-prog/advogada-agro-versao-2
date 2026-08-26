@@ -2,7 +2,7 @@
 // (pagina-direito-agrario-fundiario.md e servicos-advocacia-agro.docx)
 
 // TODO(cliente): substituir pelo número de WhatsApp real, formato 55DDDNUMERO (somente dígitos)
-export const WHATSAPP_NUMBER = "5500000000000";
+export const WHATSAPP_NUMBER = "5519992698000";
 export const INSTAGRAM_HANDLE = "@DraAdvAgro";
 export const INSTAGRAM_URL = "https://instagram.com/draadvagro";
 // TODO(cliente): substituir pelo e-mail real de contato
@@ -32,7 +32,7 @@ export const hero = {
   eyebrow: "Advocacia especializada em agronegócio",
   title: "Direito Agrário e Fundiário para o Agronegócio",
   description:
-    "Ter a propriedade rural devidamente regularizada é a base de qualquer operação agrícola segura — sem isso, o produtor fica exposto a disputas de posse, dificuldade de acesso a crédito e restrições em negociações futuras.",
+    "Soluções jurídicas para todos os momentos da atividade rural. Atuamos na prevenção e solução de conflitos, análise de crédito rural, estruturação de contratos agropecuários, proteção patrimonial e recuperação judicial para produtores e empresas do agronegócio.",
   ctaPrimary: "Falar no WhatsApp",
   ctaSecondary: "Solicitar consulta por e-mail",
   badges: [
@@ -51,6 +51,10 @@ export const marqueeItems = [
   "REGULARIZAÇÃO FUNDIÁRIA",
   "USUCAPIÃO RURAL",
   "CONTRATOS DO AGRONEGÓCIO",
+  "RENEGOCIAÇÃO DE DÍVIDAS",
+  "RECUPERAÇÃO JUDICIAL",
+  "DEFESA EM EXECUÇÕES",
+  "PROTEÇÃO PATRIMONIAL",
   "DIREITO AMBIENTAL RURAL",
   "SUCESSÃO PATRIMONIAL RURAL",
   "CRÉDITO E FINANCIAMENTO RURAL",
@@ -64,45 +68,45 @@ export const whyRegularize = {
   items: [
     {
       number: "01",
-      title: "Acesso a crédito comprometido",
+      title: "Crédito Rural e Renegociação",
       description:
-        "Sem regularização, o imóvel rural pode ficar impedido de acessar linhas de crédito rural essenciais para a operação.",
+        "Atuação na análise e negociação de dívidas originadas de operações de crédito rural em casos de frustração de safra, problemas climáticos ou queda de preços.",
     },
     {
       number: "02",
-      title: "Disputas judiciais",
+      title: "Proteção Patrimonial",
       description:
-        "Propriedades sem documentação atualizada podem ser alvo de disputas judiciais de posse e demarcação a qualquer momento.",
+        "Assessoria para avaliar, preparar e conduzir a recuperação judicial ou extrajudicial do produtor rural, protegendo seu negócio e seu patrimônio.",
     },
     {
       number: "03",
-      title: "Restrições na exportação",
+      title: "Segurança Contratual",
       description:
-        "Processos de exportação exigem rastreabilidade da origem da produção, o que fica comprometido sem regularização fundiária.",
+        "Elaboração, auditoria e revisão de contratos da cadeia produtiva, garantias bancárias, arrendamento, parceria rural e CAR (Cadastro Ambiental Rural).",
     },
   ],
 };
 
 export const coreServices = [
   {
-    title: "Regularização Fundiária",
+    title: "Regularização Fundiária e Posse",
     description:
-      "Levantamento documental e regularização de imóveis rurais sem matrícula atualizada ou com pendências no registro de imóveis.",
+      "Levantamento documental, usucapião, georreferenciamento e defesa em conflitos de divisa e disputa de posse de imóveis rurais.",
   },
   {
-    title: "Usucapião Rural",
+    title: "Renegociação de Crédito Rural",
     description:
-      "Reconhecimento judicial da propriedade para produtores que ocupam e produzem em terra há anos sem título formal.",
+      "Auditoria de contratos e títulos de financiamento, prorrogação e alongamento de dívidas, análise de encargos e defesa em execuções bancárias.",
   },
   {
-    title: "Contratos de Arrendamento e Parceria Rural",
+    title: "Recuperação Judicial do Produtor",
     description:
-      "Elaboração e revisão de contratos que protegem tanto o proprietário quanto o produtor arrendatário.",
+      "Condução de recuperação judicial e extrajudicial para produtores em crise econômico-financeira, viabilizando a continuidade da atividade e reorganização de obrigações.",
   },
   {
-    title: "Disputas Possessórias e Demarcatórias",
+    title: "Contratos do Agronegócio",
     description:
-      "Defesa em conflitos de divisa, invasão ou disputa de posse entre vizinhos e terceiros.",
+      "Assessoria em contratos de arrendamento, parceria agrícola, integração e demais negociações da cadeia produtiva, comercial e financeira.",
   },
 ];
 
@@ -216,8 +220,8 @@ export const audience = {
   items: [
     "Produtores rurais com documentação de terra desatualizada",
     "Empresas do agronegócio em processo de aquisição de novas áreas",
-    "Famílias em processo de partilha de imóveis rurais",
-    "Cooperativas com pendências fundiárias em suas áreas de atuação",
+    "Produtores rurais enfrentando frustração de safra, problemas climáticos ou dificuldade temporária de pagamento.",
+    "Grupos familiares e empresas do agronegócio que buscam proteção patrimonial ou reestruturação de passivos.",
   ],
 };
 

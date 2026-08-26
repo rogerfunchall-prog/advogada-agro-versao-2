@@ -47,7 +47,7 @@ export default function Hero() {
             {hero.eyebrow}
           </motion.p>
 
-          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.08] text-white text-balance">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] text-white text-balance max-w-4xl">
             <RevealWords text={hero.title} delay={0.15} />
           </h1>
 
