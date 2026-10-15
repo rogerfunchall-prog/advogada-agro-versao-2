@@ -1,10 +1,7 @@
 {
   "deploy": {
-    "type": "static",
+    "type": "fullstack",
     "rootDir": ".",
-    "installCmd": "npm ci",
-    "buildCmd": "NODE_ENV=production npm run build",
-    "outputDir": "out",
-    "entryFile": "index.html"
+    "appPort": 3000
   }
 }
