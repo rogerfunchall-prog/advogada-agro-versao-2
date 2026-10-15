@@ -1,0 +1,10 @@
+{
+  "deploy": {
+    "type": "static",
+    "rootDir": ".",
+    "installCmd": "npm ci",
+    "buildCmd": "NODE_ENV=production npm run build",
+    "outputDir": "out",
+    "entryFile": "index.html"
+  }
+}
