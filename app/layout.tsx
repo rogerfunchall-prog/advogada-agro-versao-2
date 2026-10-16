@@ -18,6 +18,10 @@ const notoSans = Noto_Sans({
 export const metadata: Metadata = {
   title: site.metaTitle,
   description: site.metaDescription,
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: site.metaTitle,
     description: site.metaDescription,
