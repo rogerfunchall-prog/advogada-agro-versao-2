@@ -13,8 +13,8 @@ export default function Hero() {
     >
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/images/hero-wheat-field.jpg"
-          alt="Campo de trigo dourado ao entardecer"
+          src="/images/hero-banner.png"
+          alt="Dra. Magrin Advogados no campo ao entardecer"
           fill
           priority
           className="object-cover animate-kenburns"
