@@ -7,8 +7,8 @@ export default function FinalCta() {
     <section id="contato" className="relative overflow-hidden py-24 md:py-32">
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/document-signing.jpg"
-          alt="Assinatura de contrato rural"
+          src="/images/final-cta-banner.png"
+          alt="Dra. Magrin em atendimento jurídico personalizado"
           fill
           className="object-cover"
         />
